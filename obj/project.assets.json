@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\gabri\\.nuget\\packages\\": {}
+    "/home/gabriel/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Z:\\Dev\\dotNET-Learning\\dotNET-Learning.csproj",
+      "projectUniqueName": "/home/gabriel/Desktop/My_Projects/dotNET-Learning/dotNET-Learning.csproj",
       "projectName": "dotNET-Learning",
-      "projectPath": "Z:\\Dev\\dotNET-Learning\\dotNET-Learning.csproj",
-      "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-      "outputPath": "Z:\\Dev\\dotNET-Learning\\obj\\",
+      "projectPath": "/home/gabriel/Desktop/My_Projects/dotNET-Learning/dotNET-Learning.csproj",
+      "packagesPath": "/home/gabriel/.nuget/packages/",
+      "outputPath": "/home/gabriel/Desktop/My_Projects/dotNET-Learning/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/gabriel/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

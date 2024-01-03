@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nehK06U0V00y1M6N9240Br9WKDusn/V1yaFmZJKIhP+yVeLWiT5aVAOAbLFCZuDadVS2o0irPFqKFclk2XECIQ==",
+  "dgSpecHash": "WB85I9mg4cY9r5/tsj2E3VK2TUSYqkI8PkIGQIWbAx3xzNzNzqxG/jkg9XQDVPtN8I8aBF5E9Fsq4NM24drfUg==",
   "success": true,
-  "projectFilePath": "Z:\\Dev\\dotNET-Learning\\dotNET-Learning.csproj",
+  "projectFilePath": "/home/gabriel/Desktop/My_Projects/dotNET-Learning/dotNET-Learning.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
