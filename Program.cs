@@ -12,9 +12,9 @@ public class Program
         string nome3 = "Diogo";
 
         Console.WriteLine($"Bom dia {nome2}!");
-        Console.WriteLine(nome2.Contains("n",StringComparison.OrdinalIgnoreCase));
+        Console.WriteLine(nome2.Contains("neemias",StringComparison.OrdinalIgnoreCase));
         Console.WriteLine(nome2.StartsWith("N"));
-        Console.WriteLine();
+        Console.WriteLine(nome2.Equals("neemias"));
     }   
 }
 
