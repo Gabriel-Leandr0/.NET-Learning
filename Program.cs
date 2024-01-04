@@ -10,25 +10,16 @@ public class Program
         meuArray[2] = 30;
         meuArray[1] = 00;
 
-        Console.WriteLine(meuArray[0]);
-        Console.WriteLine(meuArray[1]);
-        Console.WriteLine(meuArray[2]);
+        for (int i = 0; i < meuArray.Length; i++)
+        {
+            Console.WriteLine(meuArray[i]);
+            
+        }
 
-        var products = new Product[2];
-
-        products[0] = new Product("melancia",2);
-        products[1] = new Product("laranja",1);
-
+        foreach (var item in meuArray)
+        {
+            Console.WriteLine(item);
+        }
+        
     }   
-}
-
-struct Product
-{
-    public Product(string nome, int numero)
-    {
-        Nome = nome;
-        Numero = numero;
-    }
-    private string Nome;
-    private int Numero;
 }
