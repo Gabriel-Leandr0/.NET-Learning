@@ -5,21 +5,27 @@ public class Program
     static void Main(string[] args)
     {
         var meuArray = new int[3];
+
+        try
+        {
+            meuArray[0] = 22;
+            meuArray[2] = 30;
+            meuArray[1] = 00;
+            meuArray[3] = 99;
+        }
+        //Do mais especifico
+        catch (IndexOutOfRangeException e)
+        {
+            Console.WriteLine(e);
+            Console.WriteLine("Array estourado");
+        }
+        //Ao mais generico
+        catch (Exception e)
+        {
+            Console.WriteLine("ops deu esse erro ai: "+e);
+        }
         
-        meuArray[0] = 22;
-        meuArray[2] = 30;
-        meuArray[1] = 00;
 
-        for (int i = 0; i < meuArray.Length; i++)
-        {
-            Console.WriteLine(meuArray[i]);
-            
-        }
-
-        foreach (var item in meuArray)
-        {
-            Console.WriteLine(item);
-        }
         
     }   
 }
